@@ -1,4 +1,5 @@
-* { margin: 0px;
+* {
+  margin: 0px;
   padding: 0px;
 }
 
@@ -298,10 +299,12 @@ li a:active {
     -webkit-transform: scale(1) rotate3d(-1, 1, 0, 0deg);
     transform: scale(1) rotate3d(-1, 1, 0, 0deg);
   }
+
   50% {
     -webkit-transform: scale(0.5) rotate3d(-1, 1, 0, 180deg);
     transform: scale(0.5) rotate3d(-1, 1, 0, 180deg);
   }
+
   100% {
     -webkit-transform: scale(1) rotate3d(-1, 1, 0, 360deg);
     transform: scale(1) rotate3d(-1, 1, 0, 360deg);
@@ -313,10 +316,12 @@ li a:active {
     -webkit-transform: scale(1) rotate3d(-1, 1, 0, 0deg);
     transform: scale(1) rotate3d(-1, 1, 0, 0deg);
   }
+
   50% {
     -webkit-transform: scale(0.5) rotate3d(-1, 1, 0, 180deg);
     transform: scale(0.5) rotate3d(-1, 1, 0, 180deg);
   }
+
   100% {
     -webkit-transform: scale(1) rotate3d(-1, 1, 0, 360deg);
     transform: scale(1) rotate3d(-1, 1, 0, 360deg);
@@ -327,33 +332,40 @@ li a:active {
   body {
     min-width: 320px;
   }
+
   h1,
   h2 {
     font-size: 36px;
     margin-left: 16px;
     margin-right: 16px;
   }
+
   p {
     font-size: 14px;
     line-height: 22px;
     margin-left: 16px;
     margin-right: 16px;
   }
+
   ul {
     height: 224px;
   }
+
   li {
     margin: 24px;
   }
+
   li a {
     color: #FFFFFF;
     margin: 16px;
   }
+
   .label-burg,
   .label-equis {
     cursor: pointer;
     padding-top: 16px;
   }
+
   .cont-venimos {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -363,22 +375,27 @@ li a:active {
     z-index: 1;
     top: -95.5px;
   }
+
   .cont-epi {
     -webkit-clip-path: polygon(0 4%, 100% 0%, 100% 96%, 0% 100%);
     clip-path: polygon(0 4%, 100% 0%, 100% 96%, 0% 100%);
   }
+
   .cont-final {
     -webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 6%, 100% 0, 100% 100%, 0% 100%);
   }
+
   #icon-burg-check,
   .items-menu {
     display: none;
   }
+
   .logo {
     padding-top: 10px;
     padding-left: 16px;
   }
+
   .items-menu {
     position: absolute;
     top: 84%;
@@ -387,17 +404,21 @@ li a:active {
     min-width: 320px;
     width: 100%;
   }
-  #icon-burg-check:checked ~ .items-menu,
-  #icon-burg-check:checked ~ .label-equis {
+
+  #icon-burg-check:checked~.items-menu,
+  #icon-burg-check:checked~.label-equis {
     display: block;
   }
-  #icon-burg-check:checked ~ .label-burg {
+
+  #icon-burg-check:checked~.label-burg {
     display: none;
   }
+
   .navmenu {
     padding-left: 16px;
     padding-right: 19px;
   }
+
   .boton {
     font-size: 16px;
     margin: 16px;
@@ -405,6 +426,7 @@ li a:active {
     min-width: 288px;
     min-height: 48px;
   }
+
   .botones {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -413,24 +435,30 @@ li a:active {
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .cont-init {
     padding-left: 16px;
   }
+
   .cont-invitados__items {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .imagen-phone {
     margin-bottom: 27px;
   }
+
   .cont-invitados__h2 {
     margin-bottom: 14px;
   }
+
   .cont-epi {
     padding-bottom: 143.5px;
   }
+
   .ele-spoti {
     border-width: 0px;
     width: 100%;
@@ -440,31 +468,39 @@ li a:active {
     margin-bottom: 11px;
     z-index: 1;
   }
+
   .cont-nues-tem {
     padding-bottom: 42px;
     margin-top: 48px;
   }
+
   .boton-esc {
     margin: 36px 16px 0px 16px;
   }
+
   .cont-nues-tem__h2 {
     margin-bottom: 24px;
   }
+
   .label-svg {
     margin-left: 16px;
     margin-bottom: 36px;
   }
+
   .item-svg {
     margin-left: 108px;
     margin-right: 108px;
     margin-bottom: 13px;
   }
+
   .cont-final {
     padding: 0px 16px 67px 16px;
   }
+
   .firma {
     text-align: center;
   }
+
   .cont-nues-tem__img {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -474,16 +510,20 @@ li a:active {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .footer-final {
     padding: 24px 45px 31px 24px;
   }
+
   .icon {
     width: 16px;
   }
+
   .icon:hover {
     width: 18px;
     height: 30px;
   }
+
   .fa {
     font-size: 20px;
   }
@@ -493,39 +533,49 @@ li a:active {
   body {
     margin: 1%;
   }
+
   .logo {
     height: 36px;
     width: 36px;
   }
+
   h1 {
     font-size: 64px;
   }
+
   h1::after {
     color: #0000EC;
   }
+
   h2 {
     font-size: 48px;
     margin-left: 200px;
   }
+
   .h2-epi {
     margin-bottom: 26px;
     position: relative;
     top: 140px;
   }
+
   p {
     font-size: 16px;
     line-height: 24px;
     width: 628px;
   }
+
   ul {
     height: 80px;
   }
+
   li {
     margin: 2px 24px 0px 24px;
   }
+
   li a {
     color: #060A24;
   }
+
   .items-menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -534,10 +584,12 @@ li a:active {
     -ms-flex-pack: start;
     justify-content: flex-start;
   }
+
   .seccion-1,
   .cont-invitados {
     max-width: 1440px;
   }
+
   .cont-venimos {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -546,35 +598,43 @@ li a:active {
     -ms-flex-align: center;
     align-items: center;
   }
+
   .cont-epi {
     -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 81%, 0% 100%);
-            clip-path: polygon(0 20%, 100% 0%, 100% 81%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0%, 100% 81%, 0% 100%);
     height: 1042.6px;
   }
+
   .cont-final {
     -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
-            clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
   }
+
   .cont-venimos__div {
     margin-left: 62.4px;
     margin-top: 20.4px;
   }
+
   .cont-venimos__h2 {
     margin-left: 0px;
     margin-top: 0px;
     margin-bottom: 20px;
   }
+
   .cont-invitados__h2 {
     margin-top: 64px;
     margin-bottom: 36px;
   }
+
   #icon-burg-check,
   .label-burg {
     display: none;
   }
+
   .navmenu {
     padding: 22px 100px;
   }
+
   .boton {
     font-size: 18px;
     margin-top: 56px;
@@ -583,13 +643,16 @@ li a:active {
     width: 226px;
     height: 56px;
   }
+
   .botones-ini {
     height: 113px;
   }
+
   .cont-init {
     margin-left: 200px;
     margin-top: 120px;
   }
+
   .items-podcast {
     top: 10px;
     -webkit-box-pack: center;
@@ -598,38 +661,46 @@ li a:active {
     width: 100%;
     padding: 0px 100px 64px 100px;
   }
+
   .ele-spoti {
     border-width: 0px;
     width: 40.6%;
     height: 232px;
     padding: 0px 72px 72px 0px;
   }
+
   .imagen-phone {
     max-width: 457.6px;
     max-height: 660px;
   }
+
   .item-invitado {
     max-width: 480px;
     max-height: 364px;
   }
+
   .cont-invitados__items {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
   }
+
   .cont-nues-tem {
     margin-top: 64px;
     margin-bottom: 34px;
   }
+
   .label-svg {
     max-width: 220px;
     max-height: 64px;
     padding: 29px 20px 0px 20px;
   }
+
   .item-svg {
     margin: 13px 78px;
   }
+
   .cont-nues-tem__img {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -639,6 +710,7 @@ li a:active {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
   .cont-nues-tem__div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -651,9 +723,11 @@ li a:active {
     flex-wrap: wrap;
     margin-left: 200px;
   }
+
   #topicos {
     margin: 64px 0 56px 200px;
   }
+
   .cont-final {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -667,17 +741,20 @@ li a:active {
     justify-content: center;
     height: 518px;
   }
+
   .h2-final {
     margin-left: 0px;
   }
+
   .boton-esc {
     margin-top: 36px;
     margin-bottom: 0px;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
-        align-self: center;
+    align-self: center;
     width: 345px;
   }
+
   .footer-final {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -691,9 +768,17 @@ li a:active {
     height: 95px;
     padding: 0px 100px;
   }
+
   .icon {
     width: 18px;
     padding-left: 36px;
   }
- 
+
+  .div-icon a:visited {
+    color: black; 
+  }
+
+  .div-icon a {
+    color: black; 
+  }
 }
